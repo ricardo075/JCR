@@ -12,27 +12,21 @@ st.subheader('...................................GULABOS........................
 
 st.write('IGREDIENTES PARA PREPARAÇAO DA MASSA:')
 
-col1, col2 = st.columns([1, 3])
+st.write('#7 OVOS')
 
-with col2:
-    st.image("receita.png")
+st.write('#500 g de manteiga')
 
-with col1:
-    st.write('#7 OVOS')
+st.write('#1 lata de leite condensado')
 
-    st.write('#500 g de manteiga')
+st.write('#1 colher de cha de raspa de limao')
 
-    st.write('#1 lata de leite condensado')
+st.write('#2 colheres de cha de custarde')
 
-    st.write('#1 colher de cha de raspa de limao')
+st.write('#2 colheres de royal')
 
-    st.write('#2 colheres de cha de custarde')
+st.write('#1 pacote de coco ralado')
 
-    st.write('#2 colheres de royal')
-
-    st.write('#1 pacote de coco ralado')
-
-    st.write('#Trigo ate dar o ponto')
+st.write('#Trigo ate dar o ponto')
 
 with st.container():
     st.write('---')
