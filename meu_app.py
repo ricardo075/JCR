@@ -51,35 +51,6 @@ with st.container():
 
     st.write('QUARTO: Leve um tabuleiro e comece a fazer rolinhos para fritar')
 
-imagem1 = '1.png'
-
-imagem2 = '2.png'
-
-imagem3 = '3.png'
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.image(imagem1, use_column_width=True)
-
-with col2:
-    st.image(imagem2, use_column_width=True)
-
-with col3:
-    st.image(imagem3, use_column_width=True)
-
-imagem4 = '4.png'
-
-imagem5 = '5.png'
-
-col4, col5 = st.columns(2)
-
-with col4:
-    st.image(imagem4, use_column_width=True)
-
-with col5:
-    st.image(imagem5, use_column_width=True)
-with st.container():
     st.write('O site ainda esta em desenvolvimento,para mais sugestoes,criticas produtivas favor contacte 868787572')
 
     st.write('Se quiser ver mais informaçoes[clique aqui](https://youtube.com/@carolinamorais220?si=28qD3hnxHxGST7ws)')
